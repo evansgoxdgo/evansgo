@@ -1,0 +1,135 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Delicioso Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .menu, .contacto {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .menu div, .contacto div {
+            width: 30%;
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cafetería Delicioso Café</h1>
+    <nav>
+        <ul>
+            <li><a href="#bienvenida">Bienvenida</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- Bienvenida -->
+    <section id="bienvenida">
+        <h2>Bienvenidos a Delicioso Café</h2>
+        <p>En nuestra cafetería, ofrecemos una experiencia única para disfrutar de los mejores cafés de la región acompañados de deliciosos pasteles y bocadillos. Ven y relájate en un ambiente acogedor y moderno.</p>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="menu">
+        <div>
+            <h3>Cafés</h3>
+            <ul>
+                <li>Café Espresso</li>
+                <li>Café Latte</li>
+                <li>Cappuccino</li>
+                <li>Americano</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Pasteles</h3>
+            <ul>
+                <li>Pastel de Chocolate</li>
+                <li>Cheesecake</li>
+                <li>Pastel de Zanahoria</li>
+                <li>Brownie</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Bocadillos</h3>
+            <ul>
+                <li>Panini de Pollo</li>
+                <li>Empanadas</li>
+                <li>Galletas Caseras</li>
+                <li>Sandwich Vegetariano</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div>
+            <h3>Ubicación</h3>
+            <p>Calle Ficticia 123, Ciudad, País</p>
+        </div>
+        <div>
+            <h3>Horario</h3>
+            <p>Lunes - Viernes: 8:00 AM - 6:00 PM</p>
+            <p>Sábado: 9:00 AM - 4:00 PM</p>
+            <p>Domingo: Cerrado</p>
+        </div>
+        <div>
+            <h3>Teléfono</h3>
+            <p>+123 456 7890</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Cafetería Delicioso Café. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+```
